@@ -1,0 +1,52 @@
+.background {
+  background-image: url('https://img.freepik.com/free-vector/warehouse-interior-logistics-delivery-cargo-goods-postal-service_33099-1617.jpg?w=1380&t=st=1685391624~exp=1685392224~hmac=7442ad145f47abab94fe5c0538c6f88ea637c58a95729748da0bf6d55278fece');  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: grid;
+  height: 100vh;
+  
+}
+
+.hello {
+  width: 400px;
+  margin: auto;  
+  padding: 20px;
+  border: 1px solid #151515;
+  border-radius: 15px;
+  background-color: rgba(255,255,255,0.7);
+  font-size: 18px;
+    
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  
+}
+
+input {  
+  padding: 8px;
+  margin-top: 13px;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+}
+
+
+button {
+  
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  margin-left: 170px;
+  border: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f1f5f1;
+  color: #4caf50;
+}
